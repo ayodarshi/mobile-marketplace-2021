@@ -3,18 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  
-  firebaseConfig:{
-    apiKey: "AIzaSyAnsSVLactwsAY3zLD9YYKvieT9TkgUdB8",
-    authDomain: "mobilemarketplace-266c5.firebaseapp.com",
-    projectId: "mobilemarketplace-266c5",
-    storageBucket: "mobilemarketplace-266c5.appspot.com",
-    messagingSenderId: "310374443092",
-    appId: "1:310374443092:web:4f391892f6557eed1c65c1"
+  production: true,
+  firebaseConfig :{
+    apiKey: "AIzaSyA3Y8mFrJgGgN7JIiXtf9Q3WBVKUlVz5zM",
+    authDomain: "mobile-marketplace1.firebaseapp.com",
+    databaseURL: "https://mobile-marketplace1.firebaseio.com",
+    projectId: "mobile-marketplace1",
+    storageBucket: "mobile-marketplace1.appspot.com",
+    messagingSenderId: "490632260310",
+    appId: "1:490632260310:web:4e7bc8e1f71596fdf37777",
+    measurementId: "G-1D4WVKEKPV"
   }
-    }
-
+  
+};
 
 /*
  * For easier debugging in development mode, you can import the following file
