@@ -3,14 +3,26 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
+  production: false,
+
   firebaseConfig :{
-    apiKey: "AIzaSyBoMFYE-qujUcqtfc2lOe2aywEormIpNYY",
-    authDomain: "mobilemarketplace-1e250.firebaseapp.com",
-    projectId: "mobilemarketplace-1e250",
-    storageBucket: "mobilemarketplace-1e250.appspot.com",
-    messagingSenderId: "58794864568",
-    appId: "1:58794864568:web:37dbe04d72da5832b6294d"
+    
+    apiKey: "AIzaSyDUjAPjK3gU8kugS3Wt8JTxQcOC0vnwiG8",
+    authDomain: "mobile-marketplace-77f19.firebaseapp.com",
+    databaseURL: "https://mobile-marketplace-77f19-default-rtdb.firebaseio.com",
+    projectId: "mobile-marketplace-77f19",
+    storageBucket: "mobile-marketplace-77f19.appspot.com",
+    messagingSenderId: "481835323857",
+    appId: "1:481835323857:web:826a878bbe1e23123310f0"
+
+    /*apiKey: "AIzaSyA3Y8mFrJgGgN7JIiXtf9Q3WBVKUlVz5zM",
+    authDomain: "mobile-marketplace1.firebaseapp.com",
+    databaseURL: "https://mobile-marketplace1.firebaseio.com",
+    projectId: "mobile-marketplace1",
+    storageBucket: "mobile-marketplace1.appspot.com",
+    messagingSenderId: "490632260310",
+    appId: "1:490632260310:web:4e7bc8e1f71596fdf37777",
+    measurementId: "G-1D4WVKEKPV"*/
   }
   
 };
