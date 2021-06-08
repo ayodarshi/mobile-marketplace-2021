@@ -1,11 +1,12 @@
 export const environment = {
   production: true,
+  
   firebaseConfig :{
-    apiKey: "AIzaSyBoMFYE-qujUcqtfc2lOe2aywEormIpNYY",
-    authDomain: "mobilemarketplace-1e250.firebaseapp.com",
-    projectId: "mobilemarketplace-1e250",
-    storageBucket: "mobilemarketplace-1e250.appspot.com",
-    messagingSenderId: "58794864568",
-    appId: "1:58794864568:web:37dbe04d72da5832b6294d"
+    apiKey: "AIzaSyDUjAPjK3gU8kugS3Wt8JTxQcOC0vnwiG8",
+    authDomain: "mobile-marketplace-77f19.firebaseapp.com",
+    projectId: "mobile-marketplace-77f19",
+    storageBucket: "mobile-marketplace-77f19.appspot.com",
+    messagingSenderId: "481835323857",
+    appId: "1:481835323857:web:826a878bbe1e23123310f0"
   }
 };
