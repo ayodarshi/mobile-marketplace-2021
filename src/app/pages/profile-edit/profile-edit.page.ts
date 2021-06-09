@@ -28,7 +28,10 @@ export class ProfileEditPage implements OnInit {
 
       this.editprofile_form = this.formBuilder.group({
       
-        userName: new FormControl('', Validators.compose([
+        firstname: new FormControl('', Validators.compose([
+          Validators.required,
+        ])),
+        lastName: new FormControl('', Validators.compose([
           Validators.required,
         ])),
         phone: new FormControl('', Validators.compose([
@@ -50,13 +53,13 @@ export class ProfileEditPage implements OnInit {
 
   onClickSave(){
     let profile ={
-      userName:this.editprofile_form.value.userName,
-    /*lastname:this.editprofile_form.value.lastname,*/
+      firstname:this.editprofile_form.value.firstname,
+      lastname:this.editprofile_form.value.lastname,
       phone:this.editprofile_form.value.phone
     }
 
-    this.dataSvc.updateuserName(this.user.uid, profile.userName);
-    /*this.dataSvc.updateLastName(this.user.uid, profile.lastname);*/
+    this.dataSvc.updatefirstname(this.user.uid, profile.firstname);
+    this.dataSvc.updateLastName(this.user.uid, profile.lastname);
     this.dataSvc.updatePhone(this.user.uid, profile.phone);
 
     console.log(this.user)
