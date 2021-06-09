@@ -13,10 +13,6 @@ div.rounded{
 
 div.rounded img{
      border-radius: 50%;
-     -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-     -ms-border-radius: 50%;
-     -o-border-radius: 50%;
      position:absolute;
      left:25%;
      transform: translate(0, -5);
@@ -26,5 +22,5 @@ div.rounded img{
 ion-item{
     --ion-background-color:#f3f3f3;
     border-radius: 5px !important;
-    margin-top: 10px;
+    margin-top: 5px;
 }
