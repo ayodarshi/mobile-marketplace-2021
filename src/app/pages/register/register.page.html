@@ -5,7 +5,7 @@
         <ion-icon slot="start" name="arrow-back-outline" color="dark"></ion-icon>
       </ion-button>
       <div class="emailForm">
-        <h2 class="ion-text-center header_lbl" >Sign Up</h2>
+        <h2 class="ion-text-center header_lbl">Sign Up</h2>
         <form [formGroup]="registration_form">    
           <ion-item lines="full">
             <ion-label position="floating">Email</ion-label>
@@ -23,7 +23,7 @@
       
           <ion-row>
             <ion-col> 
-            <ion-button class="btn_class" [disabled]="!registration_form.valid" color="secondary"  type="submit" (click)="signUp(registration_form.value)" expand="block">Register</ion-button>
+            <ion-button class="btn_class" [disabled]="!registration_form.valid" color="medium"  type="submit" (click)="signUp(registration_form.value)" expand="block">Register</ion-button>
             </ion-col>
           </ion-row>
         </form>
