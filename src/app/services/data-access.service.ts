@@ -29,13 +29,13 @@ export class DataAccessService {
     return this.afs.doc<any>(`users/${userId}`).valueChanges();
   }
 
-  updateuserName(userId, userName){
-    this.afs.doc(`users/${userId}`).update({userName: userName});
+  updatefirstname(userId, firstname){
+    this.afs.doc(`users/${userId}`).update({firstname: firstname});
   }
 
-  /*updateLastName(userId, lastname){
+  updateLastName(userId, lastname){
     this.afs.doc(`users/${userId}`).update({lastname: lastname});
-  }*/
+  }
 
   updatePhone(userId, phone){
     this.afs.doc(`users/${userId}`).update({phone: phone});
