@@ -2,6 +2,25 @@
     width: 100%;
     padding: 20px;
 
+    
+
+}
+div.rounded{
+    height:200px;
+    width: 200px;
+    position: relative;
+}
+
+div.rounded img{
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     position:absolute;
+     left:25%;
+     transform: translate(0, -5);
+     
 }
 
 ion-item{
